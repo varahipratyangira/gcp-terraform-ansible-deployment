@@ -1,5 +1,5 @@
 provider "google" {
-  credentials = file("<path-to-your-service-account-key>.json")
-  project     = "<your-gcp-project-id>"
-  region      = "us-west1"
+  credentials = "C:/Users/srini/servicegcp"  # Path to your service account key
+  project     = "gcp-terraform-ansible-deployment"  # Your GCP project ID
+  region      = "us-west1"  # The region of your resources
 }
